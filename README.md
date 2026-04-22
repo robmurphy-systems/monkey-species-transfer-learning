@@ -1,7 +1,12 @@
 # monkey-species-transfer-learning
 # 🔍 Exploratory Analysis: ANN Limitations on Image Data
 ## Objective
-This notebook performs a structured exploratory analysis to evaluate how different image preprocessing techniques impact the performance of a standard Artificial Neural Network (ANN) on an image classification task.
+This notebook performs a structured exploratory analysis to evaluate how different image preprocessing techniques impact the performance of a standard Artificial Neural Network (ANN) on an image classification task. 
+
+It then later goes into using a readily available open Convolution Neural Network known as VGG-16. Where weeks to months went into training this
+CNN. VGG-16 is a "heavy" model compared to modern standards, boasting approximately 138 million parameter.
+
+This was no simple Binary Classification. This required the classification of over 10 different species of monkeys. 
 
 ## Motivation
 Rather than optimizing for maximum accuracy, the goal of this exercise is to understand the limitations of ANN architectures when applied to image data.
